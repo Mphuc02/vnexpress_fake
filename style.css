@@ -1,0 +1,99 @@
+/*reset trình duyệt*/
+*
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: #E7E7E7;
+}
+.main-container
+{
+	width: 380px;
+	height: 260px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+.follow-title
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid black;
+}
+
+.follow-title h3
+{
+	background-color: black;
+	display: inline-block;
+	color: #FADA1A;
+	padding: 5px 10px; 
+}
+.follow-icon
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.icon
+{
+	width: 120px;
+	height: 120px;
+	background-color: #3B5998;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 30px;
+	transition: 0.3s;
+}
+
+.icon i
+{
+	display: block;
+	font-size: 50px;
+	color: white;
+	background-color: transparent;
+	margin-top: 10px;
+}
+
+.icon p
+{
+	display: block;
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+/*Đổi màu*/
+.icon:hover
+{
+	background-color: black;
+	margin-top: 20px;
+	/*chuyển động chậm lại*/
+	transition: 0.3s;
+}
+
+.twitter
+{
+	background-color: cyan;
+}
+
+.email
+{
+	background-color: red;
+	margin-right: 0px;
+}
+
+.display
+{
+	display: inline-block;
+	background-color: white;
+	color: #FADA1A;
+	position: relative;
+	top: 17px;
+	left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
